@@ -26,6 +26,9 @@ export default ({ children, title }) => (
             <Link href="/hireme" legacyBehavior>
                 <a>Hire Me</a>
             </Link>
+            <Link href="/blog" legacyBehavior>
+                <a>Blog</a>
+            </Link>
         </header>
 
         <h1>{title}</h1>
