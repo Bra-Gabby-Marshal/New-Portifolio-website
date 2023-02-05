@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 
-const Post = () => (
-    <Layout>
+const Post = ({ url }) => (
+    <Layout title={url.query.title}>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
             Nullam interdum libero vel leo feugiat, et commodo lectus rhoncus. 
             Donec in malesuada sem. Sed ac venenatis ex. Nam vel velit vel velit 
